@@ -1,5 +1,24 @@
 .button-style {
+    font-family: 'Open Sans', sans-serif;
     height: 35px;
-    padding: 0 16px;
+    width: 100%;
     font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #F76270;
+    border: none;
+    border-radius: 10px;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:active {
+        box-shadow: 0 0 10px #626262;
+    }
+
+    &:hover {
+        background-color: #f93b4d;
+        cursor: pointer;
+    }
 }
